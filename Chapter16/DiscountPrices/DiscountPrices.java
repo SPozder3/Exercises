@@ -1,4 +1,4 @@
-import util.java.Scanner;
+import java.util.Scanner;
 
 public class DiscountPrices{
 	public static void main(String[] args){
@@ -6,11 +6,11 @@ public class DiscountPrices{
 		Scanner scan = new Scanner(System.in);
 
 		System.out.println("Enter amount of purchases:");
-		cost = scan.nextInt;
+		cost = scan.nextInt();
 
 		if (cost > 10){
-			int discount = cost - (cost * 0.1);
-			System.out.println("Discounted price:" + discount);
+			int discount = cost - (cost/10);
+			System.out.println("Discounted price: " + discount);
 		} else {
 			System.out.println("Discount not avaliable");
 		}
