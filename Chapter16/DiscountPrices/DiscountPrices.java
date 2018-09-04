@@ -12,7 +12,7 @@ public class DiscountPrices{
 			int discount = cost - (cost * 0.1);
 			System.out.println("Discounted price:" + discount);
 		} else {
-			System.out.println("Discount not avaliable")
+			System.out.println("Discount not avaliable");
 		}
 	}
 }
