@@ -17,7 +17,7 @@ public class YourAgeInSeconds{
 
 		int totalDaysInYears = years * 365;
 
-		int totalDaysInMonths;
+		int totalDaysInMonths = 0;
 		int[] daysPerMonth = {31,28,31,30,31,30,31,31,30,31,30,31};
 		for (int i = 0; i < months; i++) {
 			totalDaysInMonths += daysPerMonth[i];

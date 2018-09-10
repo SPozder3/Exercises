@@ -8,17 +8,17 @@ public class InternetDelicatessen{
 		Scanner scan = new Scanner(System.in);
 
 		System.out.println("Enter the item:");
-		item = nextLine();
+		item = scan.nextLine();
 		System.out.println("Enter the price:");
-		price = nextDouble();
+		price = scan.nextDouble();
 		System.out.println("Overnight delivery (0==no, 1==yes):");
-		express = nextInt();
+		express = scan.nextInt();
 
 		double delivery = 0;
 		if (price < 10){
 			delivery = delivery + 2;
 		}
-		if (express = 1){
+		if (express == 1){
 			delivery = delivery + 3;
 		}
 
