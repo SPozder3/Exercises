@@ -4,6 +4,9 @@ public class TownDump{
 	public static void main(String[] args){
 		int pounds;
 		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Weight:");
+		pounds = nextInt();
 
 		int charge = 0;
 		int extra;
