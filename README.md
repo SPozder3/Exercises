@@ -11,6 +11,8 @@ from programmedlessons.org
 
 ## Completed:
 
+### Before the change in the Website:
+
 * Chapter 8
 * Chapter 9
 * Chapter 10
@@ -18,3 +20,5 @@ from programmedlessons.org
 * Chapter 12
 * Chapter 13
 * Chapter 14
+
+### After the change in the Website:
