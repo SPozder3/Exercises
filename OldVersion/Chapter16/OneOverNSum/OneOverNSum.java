@@ -8,13 +8,11 @@ public class OneOverNSum{
 		System.out.println("Enter N:");
 		n = scan.nextInt();
 
-		double sumFormula = 1.0/n;
-		int x = 0;
 		double sum = 0.0;
-		while (x < n){
+		while (n != 0){
+			double sumFormula = 1.0/n;
 			sum = sum + sumFormula;
-			n = n + 1;
-			x = x + 1;
+			n = n - 1;
 		}
 
 		System.out.println("Sum is: " + sum);
