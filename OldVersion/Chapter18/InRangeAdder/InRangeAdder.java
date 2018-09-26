@@ -22,9 +22,8 @@ public class InRangeAdder{
 			else{
 				sumOutRange = sumOutRange + data;
 			}
-
+		}
 		System.out.println("Sum of in range values: " + sumInRange);
 		System.out.println("Sum of out of range values: " + sumOutRange);
-		}
 	}
 }

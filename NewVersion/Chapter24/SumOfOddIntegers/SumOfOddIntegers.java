@@ -15,6 +15,6 @@ public class SumOfOddIntegers{
 		int nSquared = n * n;
 
 		System.out.println("Sum of all odd integers 1 to N: " + sum);
-		System.out.println("Sum of all integers N^2: " + square);
+		System.out.println("N^2: " + nSquared);
 	}
 }

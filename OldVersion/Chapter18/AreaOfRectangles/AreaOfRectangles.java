@@ -6,8 +6,8 @@ public class AreaOfRectangles{
 
 		Scanner scan = new Scanner(System.in);
 
-		boolean error = False;
-		while (error == False){
+		boolean error = false;
+		while (error == false){
 			System.out.println("First corner X coordinate:");
 			int firstX = scan.nextInt();
 			System.out.println("First corner Y coordinate:");
@@ -25,7 +25,7 @@ public class AreaOfRectangles{
 				System.out.println("Height: " + height);
 				System.out.println("Area: " + area);
 				System.out.println("Finished");
-				error = True;
+				error = true;
 			}
 			else{
 				System.out.println("Width: " + width);

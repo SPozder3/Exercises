@@ -6,7 +6,7 @@ public class OneLetterPerLine{
 		System.out.println("Enter a word:");
 		String word = scan.nextLine();
 
-		int x = 1;
+		int x = 0;
 		while (x < word.length()){
 			System.out.println(word.charAt(x));
 			x = x + 1;

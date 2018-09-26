@@ -17,6 +17,7 @@ public class MilesPerGallon{
 
 			int miles = finalMiles - initialMiles;
 			double milesPerGallon = miles/gallons;
+			System.out.println("Miles per Gallon: " + milesPerGallon);
 		}
 		System.out.println("bye");
 
