@@ -4,19 +4,14 @@ from programmedlessons.org
 
 ## Working on:
 
-* Chapter 40 (Ace the quiz)
-* Chapter 41 (Ace the quiz)
-* Chapter 42 (Review)
-* Chapter 43 (Review)
-* Chapter 44 (1, 6, Ace the quiz)
-* Chapter 45 (Ace the quiz)
-* Chapter 46 (Review)
-* Chapter 47 (1, 2, Review)
-* Chapter 50 (All, Ace the quiz)
-* Chapter 51 (Review)
-* Chapter 52 (Ace the Quiz)
-* Chapter 53 (All, Review)
-* Chapter 54 (1-4, Ace the Quiz)
+### New Chapter Exercises:
+
+* Chapter 60 (All)
+* Chapter 61 (1-6, 9-11)
+* Chapter 62 (Important info)
+* Chapter 63 (1-3)
+
+### Old Chapter Exercises:
 
 ## Completed:
 
@@ -32,6 +27,19 @@ from programmedlessons.org
 * Chapter 19 (4)
 * Chapter 24 (1, 2 or 3, 4)
 * Chapter 25 (2, 3)
+* Chapter 40 (Ace the quiz)
+* Chapter 41 (Ace the quiz)
+* Chapter 42 (Review)
+* Chapter 43 (Review)
+* Chapter 44 (1, 6, Ace the quiz)
+* Chapter 45 (Ace the quiz)
+* Chapter 46 (Review)
+* Chapter 47 (1, 2, Review)
+* Chapter 50 (All, Ace the quiz)
+* Chapter 51 (Review)
+* Chapter 52 (Ace the Quiz)
+* Chapter 53 (All, Review)
+* Chapter 54 (1-4, Ace the Quiz)
 
 ### Old Chapter Exercises:
 
