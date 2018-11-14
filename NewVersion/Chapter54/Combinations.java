@@ -11,14 +11,17 @@ public class Combinations{
 
 		int x = n - r;
 
-		for (i = 1; i <= n; i++){
-			int factN = factN * i;
+		int factN = 1;
+		int factR = 1;
+		int factX = 1;
+		for (int i = 1; i <= n; i++){
+			factN = factN * i;
 		}
-		for (j = 1; j <= r; j++){
-			int factR = factR * i;
+		for (int j = 1; j <= r; j++){
+			factR = factR * j;
 		}
-		for (k = 1; k <= xl k++){
-			int factX = factX * i;
+		for (int k = 1; k <= x; k++){
+			factX = factX * k;
 		}
 
 		int combination = factN / (factR * factX);

@@ -9,17 +9,22 @@ public class UnluckyNumbers{
 
 		if (number == 13){
 			System.out.println("That number is unlucky.");
+			System.exit(0);
 		}
 
 		boolean notAUnluckyNumber = true;
 		while (notAUnluckyNumber){
+			if (number % 100 == 13){
+				System.out.println("That number is unlucky.");
+				notAUnluckyNumber = false;
+			}
 			number = number/10;
 			if (number == 13){
 				System.out.println("That number is unlucky.");
 				notAUnluckyNumber = false;
 			}
 			if (number == 0){
-				System.out.println("That number is safe.")
+				System.out.println("That number is safe.");
 				notAUnluckyNumber = false;
 			}
 		}
