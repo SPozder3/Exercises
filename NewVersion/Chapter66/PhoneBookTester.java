@@ -37,7 +37,9 @@ class PhoneBook
   {
     for ( int j=0; j < phoneBook.length; j++ )
     {
-      if ( phoneBook[j] != null && phoneBook[j].getName().equals(targetName) )
+      if ( phoneBook[j] != null && phoneBook[j].getFirstName().equals(targetName) )
+        return phoneBook[ j ];
+      if ( phoneBook[j] != null && phoneBook[j].getLastName().equals(targetName) )
         return phoneBook[ j ];
     }
 
@@ -54,19 +56,22 @@ public class PhoneBookTester
 
     boolean askForName = true;
     while (askForName){
-      System.out.println("Name?");
-      String name = scan.nextLine();
+      System.out.println("Last Name?");
+      String lastName = scan.nextLine();
+      System.out.println("First Name?");
+      String firstName = scan.nextLine();
 
-      if (name.equals("quit")){
+      if (lastName.equals("quit")){
         System.out.println("good-by");
         askForName = false;
         System.exit(0);
       }
 
-      PhoneEntry entry = pb.search(name); 
+      PhoneEntry entryLastName = pb.search(lastName); 
+      PhoneEntry entryFirstName = pb.search(firstName);
 
-      if ( entry != null ){
-       System.out.println(entry.getName() + ": " + entry.getPhone());
+      if (entryLastName != null && entryFirstName != null){
+       System.out.println(entryFirstName.getFirstName() + " " + entryLastName.getLastName() + ": " + entryFirstName.getPhone());
       }else{
        System.out.println("Name not found" );
       }
