@@ -38,9 +38,9 @@ class PhoneBook
     for ( int j=0; j < phoneBook.length; j++ )
     {
       if ( phoneBook[j] != null && phoneBook[j].getFirstName().equals(targetName) )
-        return phoneBook[ j ];
+        return phoneBook[j];
       if ( phoneBook[j] != null && phoneBook[j].getLastName().equals(targetName) )
-        return phoneBook[ j ];
+        return phoneBook[j];
     }
 
     return null;
