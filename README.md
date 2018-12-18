@@ -6,11 +6,6 @@ from programmedlessons.org
 
 ### New Chapter Exercises:
 
-* Chapter 60 (All)
-* Chapter 61 (1-6, 9-11)
-* Chapter 62 (Important info)
-* Chapter 63 (1-3)
-
 ### Old Chapter Exercises:
 
 ## Completed:
@@ -40,6 +35,13 @@ from programmedlessons.org
 * Chapter 52 (Ace the Quiz)
 * Chapter 53 (All, Review)
 * Chapter 54 (1-4, Ace the Quiz)
+* Chapter 60 (All)
+* Chapter 61 (1-6, 9-10)
+* Chapter 63 (1-3)
+* Chapter 64 (Ace the quiz)
+* Chapter 65 (Ace the quiz)
+* Chapter 66 (1-3, 5)
+* Chapter 67 (1-6)
 
 ### Old Chapter Exercises:
 
